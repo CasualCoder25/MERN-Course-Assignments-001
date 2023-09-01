@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+  </head>
+  <body>
+    <div style="display: grid; justify-items: center;">
+      <div>
+        <h1 style="color: blue">Registration Form</h1>
+      </div>
+      <div style="width: min(550px,100%);">
+        <table border="2px" cellspacing="0px" style="width: 100%;">
+          <tbody style="width: 100%;">
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="firstname" style="display: grid; justify-items: center;"><b>First Name</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="text" id="fullname" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="lastname" style="display: grid; justify-items: center;"><b>Last Name</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="text" id="lastname" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="email" style="display: grid; justify-items: center;"><b>Email</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="email" id="email" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="password" style="display: grid; justify-items: center;"><b>Password</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="password" id="password" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="repassword" style="display: grid; justify-items: center;"><b>Re Password</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="password" id="repassword" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;" rowspan="2"><label for="gender" style="display: grid; justify-items: center;"><b>Gender:</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="radio" name="gender" id="male" /><label for="male">Male</label></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 70%; min-width: 285px;"><input type="radio" name="gender" id="female" /><label for="female">Female</label></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="age" style="display: grid; justify-items: center;"><b>Age:</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="number" id="age" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="mobile" style="display: grid; justify-items: center;"><b>Phone Number</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="tel" id="mobile" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px; height: 100px;"><label for="address" style="display: grid; justify-items: center;"><b>Address</b></label></td>
+                <td style="width: 70%; min-width: 285px; height: 100px;"><textarea id="address" style="width: 97%;height: 90%;"></textarea></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="state" style="display: grid; justify-items: center;"><b>State</b></label></td>
+                <td style="width: 70%; min-width: 285px;"><input type="text" id="state" style="width: 97%" /></td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="country" style="display: grid; justify-items: center;"><b>Country</b></label></td>
+                <td style="width: 70%; min-width: 285px;">
+                    <select name="country" id="country">
+                        <option name="country" value="Invalid">Choose your country</option>
+                        <option name="country" value="India">India</option>
+                        <option name="country" value="USA">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr style="width: 100%;">
+                <td style="width: 30%; min-width: 150px;"><label for="languages" style="display: grid; justify-items: center;"><b>Languages known</b></label></td>
+                <td style="width: 70%; min-width: 285px;">
+                    <input type="checkbox" name="languages" id="eng"/><label for="eng">English</label>
+                    <input type="checkbox" name="languages" id="kan"/><label for="eng">Kannada</label>
+                    <input type="checkbox" name="languages" id="hin"/><label for="eng">Hindi</label>
+                    <input type="checkbox" name="languages" id="tel"/><label for="eng">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="tnc" id="tnc"/><label for="tnc">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="display: grid; justify-content: right;">
+                        <div>Log in to <a href="https://www.google.com">Ethnus</a> website</div>
+                    </div>
+                </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
+      <div>
+        <button>Register</button>
+      </div>
+    </div>
+  </body>
+</html>
