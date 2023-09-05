@@ -1,0 +1,84 @@
+table {
+  border-spacing: 0px;
+}
+#h1 {
+  background-color: rgb(23, 208, 134);
+  color: white;
+  width: 500px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#h2 {
+  background-color: rgb(23, 208, 134);
+  color: white;
+  width: 300px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#h3 {
+  background-color: rgb(23, 208, 134);
+  color: white;
+  width: 150px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#i1 {
+  background-color: lightgray;
+  color: black;
+  width: 500px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#i2 {
+  background-color: lightgray;
+  color: black;
+  width: 300px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#i3 {
+  background-color: lightgray;
+  color: black;
+  width: 150px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#o1 {
+  background-color: white;
+  color: black;
+  width: 500px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#o2 {
+  background-color: white;
+  color: black;
+  width: 300px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}
+#o3 {
+  background-color: white;
+  color: black;
+  width: 150px;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  padding: 10px;
+}

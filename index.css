@@ -1,0 +1,43 @@
+body {
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  max-width: 50%;
+  min-width: 700px;
+  background-color: rgb(56, 56, 199);
+  border-radius: 20px;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.header {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  margin: 5px;
+}
+.html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.opt {
+  background-color: lightgoldenrodyellow;
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+a {
+  text-decoration: underline;
+  color: darkgrey;
+}

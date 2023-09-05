@@ -1,0 +1,91 @@
+table {
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+th {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#i1 {
+  width: 300px;
+}
+#i2 {
+  width: 300px;
+}
+#i3 {
+  width: 100px;
+}
+
+.c {
+  max-width: 720px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.s1 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 10px;
+}
+.s2 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 10px;
+}
+.s3 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 20px;
+}
+.s4 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 10px;
+}
+.s5 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 5px;
+}
+.s6 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 20px;
+}
+.s7 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 50%;
+}
+.s8 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-radius: 5px;
+}
+.s9 {
+  width: 80px;
+  height: 50px;
+  border: 3px solid rgb(112, 192, 26);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 10px;
+}

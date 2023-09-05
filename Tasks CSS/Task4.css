@@ -1,0 +1,42 @@
+.content {
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.slide {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  left: -180px;
+  transition: 0.2s;
+}
+.slide:hover{
+    left: 0px;
+}
+
+#green{
+    background-color: rgb(28, 146, 93);
+    position: absolute;
+    top: 30px;
+}
+
+#blue{
+    background-color: rgb(27, 133, 168);
+    position: absolute;
+    top: 110px;
+}
+
+#red{
+    background-color: rgb(230, 66, 66);
+    position: absolute;
+    top: 190px;
+}
+
+#grey{
+    background-color: rgb(102, 107, 105);
+    position: absolute;
+    top: 270px;
+}
